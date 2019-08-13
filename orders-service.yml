@@ -31,7 +31,7 @@ security:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${vcap.services.eureka.credentials.uri:http://localhost:8761}/eureka/
+      defaultZone: ${vcap.services.eureka.credentials.uri:https://eurekaser.cfapps.io/}/eureka/
 
 ---
 spring:
