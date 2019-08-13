@@ -10,7 +10,7 @@ eureka:
     registerWithEureka: false
     fetchRegistry: false
     serviceUrl:
-      defaultZone: https://eurekaser.cfapps.io/eureka/       
+      defaultZone: https://eurekaser.cfapps.io
       
 ---
 
@@ -19,4 +19,4 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://eurekaser.cfapps.io/eureka/
+      defaultZone: https://eurekaser.cfapps.io
