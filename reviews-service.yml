@@ -10,7 +10,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${vcap.services.eureka.credentials.uri:https://eurekaser.cfapps.io/eureka/
+      defaultZone: ${vcap.services.eureka.credentials.uri:https://eurekaser.cfapps.io}/eureka/
       
 # The OAuth2 server definition that would be used to send the authorization requests to
 authserver:
